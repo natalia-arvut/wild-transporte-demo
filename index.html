@@ -79,10 +79,10 @@ tailwind.config = {
     <!-- Bodenschatten unter dem LKW -->
     <div class="absolute left-[8%] right-[6%] bottom-[1%] h-9 bg-black/55 blur-2xl rounded-[50%]"></div>
     <img src="img/hero-truck-cut.png" alt="Wild Transporte Umzugs-LKW – Privat- & Firmenumzüge, 63 m³" class="relative w-full drop-shadow-[0_34px_44px_rgba(0,0,0,.6)]">
-    <!-- Volumen (höher, über dem Aufbau) -->
-    <div class="absolute top-[-9%] right-[14%] flex flex-col bg-white text-ink rounded-lg px-4 py-2.5 card-shadow"><span class="font-head font-800 text-2xl leading-none">63 m³</span><span class="text-[11px] text-steel font-semibold tracking-wide">Volumen pro Zug</span></div>
-    <!-- Möbellift (tiefer, entlang des Aufbaus) -->
-    <div class="absolute bottom-[24%] right-[20%] flex flex-col bg-red text-white rounded-lg px-4 py-2.5"><span class="font-head font-800 text-2xl leading-none">25 m</span><span class="text-[11px] text-white/80 font-semibold tracking-wide">eigener Möbellift</span></div>
+    <!-- Volumen: zentriert, etwas über dem LKW -->
+    <div class="absolute top-[-11%] left-1/2 -translate-x-1/2 flex flex-col items-center bg-white text-ink rounded-lg px-4 py-2.5 card-shadow"><span class="font-head font-800 text-2xl leading-none">63 m³</span><span class="text-[11px] text-steel font-semibold tracking-wide">Volumen pro Zug</span></div>
+    <!-- Möbellift: unter dem LKW, zwischen den Rädern -->
+    <div class="absolute bottom-[2%] left-1/2 -translate-x-1/2 flex flex-col items-center bg-red text-white rounded-lg px-4 py-2"><span class="font-head font-800 text-2xl leading-none">25 m</span><span class="text-[11px] text-white/80 font-semibold tracking-wide">eigener Möbellift</span></div>
   </div>
 
   <div class="relative z-20 flex-1 flex items-center min-w-0">
@@ -99,8 +99,8 @@ tailwind.config = {
       <!-- truck mobile: Badges am LKW verankert -->
       <div class="lg:hidden mt-9 relative">
         <img src="img/hero-truck-cut.png" alt="Wild Transporte Umzugs-LKW" class="w-full drop-shadow-[0_18px_24px_rgba(0,0,0,.5)]">
-        <div class="absolute top-[-6%] right-[14%] bg-white text-ink rounded-md px-3 py-1.5 text-center shadow-lg"><span class="font-head font-800 text-base leading-none block">63 m³</span></div>
-        <div class="absolute bottom-[22%] right-[20%] bg-red text-white rounded-md px-3 py-1.5 text-center"><span class="font-head font-800 text-base leading-none block">25 m</span></div>
+        <div class="absolute top-[-5%] left-1/2 -translate-x-1/2 bg-white text-ink rounded-md px-3 py-1.5 text-center shadow-lg"><span class="font-head font-800 text-base leading-none block">63 m³</span></div>
+        <div class="absolute bottom-[3%] left-1/2 -translate-x-1/2 bg-red text-white rounded-md px-3 py-1.5 text-center"><span class="font-head font-800 text-base leading-none block">25 m</span></div>
       </div>
     </div>
   </div>
