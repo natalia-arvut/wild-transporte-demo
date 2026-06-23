@@ -74,12 +74,16 @@ tailwind.config = {
   <div class="absolute inset-0 hero-overlay"></div>
   <div class="absolute inset-0 speedlines opacity-[.05] pointer-events-none"></div>
 
-  <!-- truck desktop -->
-  <div class="hidden lg:block absolute right-[-2%] bottom-[148px] w-[38%] h-12 bg-black/55 blur-2xl rounded-[50%] z-0"></div>
-  <img src="img/hero-truck-cut.png" alt="Wild Transporte Umzugs-LKW – Privat- & Firmenumzüge, 63 m³" class="hidden lg:block absolute right-[-3%] bottom-[150px] w-[52%] max-w-[760px] z-10 drop-shadow-[0_34px_44px_rgba(0,0,0,.6)]">
-  <!-- floating tags desktop -->
-  <div class="hidden lg:flex absolute right-[6%] bottom-[420px] z-20 bg-white text-ink rounded-lg px-4 py-3 card-shadow flex-col"><span class="font-head font-800 text-2xl leading-none">63 m³</span><span class="text-[11px] text-steel font-semibold tracking-wide">Volumen pro Zug</span></div>
-  <div class="hidden lg:flex absolute right-[1%] bottom-[300px] z-20 bg-red text-white rounded-lg px-4 py-3 flex-col"><span class="font-head font-800 text-2xl leading-none">25 m</span><span class="text-[11px] text-white/80 font-semibold tracking-wide">eigener Möbellift</span></div>
+  <!-- truck desktop: Badges sind im LKW-Container verankert (skalieren mit ihm, kein Verrutschen) -->
+  <div class="hidden lg:block absolute right-[-3%] bottom-[150px] w-[52%] max-w-[760px] z-10">
+    <!-- Bodenschatten unter dem LKW -->
+    <div class="absolute left-[8%] right-[6%] bottom-[1%] h-9 bg-black/55 blur-2xl rounded-[50%]"></div>
+    <img src="img/hero-truck-cut.png" alt="Wild Transporte Umzugs-LKW – Privat- & Firmenumzüge, 63 m³" class="relative w-full drop-shadow-[0_34px_44px_rgba(0,0,0,.6)]">
+    <!-- Volumen (höher, über dem Aufbau) -->
+    <div class="absolute top-[-9%] right-[14%] flex flex-col bg-white text-ink rounded-lg px-4 py-2.5 card-shadow"><span class="font-head font-800 text-2xl leading-none">63 m³</span><span class="text-[11px] text-steel font-semibold tracking-wide">Volumen pro Zug</span></div>
+    <!-- Möbellift (tiefer, entlang des Aufbaus) -->
+    <div class="absolute bottom-[24%] right-[20%] flex flex-col bg-red text-white rounded-lg px-4 py-2.5"><span class="font-head font-800 text-2xl leading-none">25 m</span><span class="text-[11px] text-white/80 font-semibold tracking-wide">eigener Möbellift</span></div>
+  </div>
 
   <div class="relative z-20 flex-1 flex items-center min-w-0">
     <div class="max-w-7xl mx-auto px-5 lg:px-8 w-full min-w-0 py-10">
@@ -92,10 +96,11 @@ tailwind.config = {
           <a href="tel:+41447505503" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/25 text-white font-head font-700 tracking-wide text-lg px-6 py-3 rounded-md transition-colors">044 750 55 03</a>
         </div>
       </div>
-      <!-- truck mobile -->
+      <!-- truck mobile: Badges am LKW verankert -->
       <div class="lg:hidden mt-9 relative">
         <img src="img/hero-truck-cut.png" alt="Wild Transporte Umzugs-LKW" class="w-full drop-shadow-[0_18px_24px_rgba(0,0,0,.5)]">
-        <div class="absolute top-1 right-1 bg-red text-white rounded-md px-3 py-1.5 text-center"><span class="font-head font-800 text-lg leading-none block">63 m³</span></div>
+        <div class="absolute top-[-6%] right-[14%] bg-white text-ink rounded-md px-3 py-1.5 text-center shadow-lg"><span class="font-head font-800 text-base leading-none block">63 m³</span></div>
+        <div class="absolute bottom-[22%] right-[20%] bg-red text-white rounded-md px-3 py-1.5 text-center"><span class="font-head font-800 text-base leading-none block">25 m</span></div>
       </div>
     </div>
   </div>
