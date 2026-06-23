@@ -75,11 +75,11 @@ tailwind.config = {
   <div class="absolute inset-0 speedlines opacity-[.05] pointer-events-none"></div>
 
   <!-- truck desktop -->
-  <div class="hidden lg:block absolute right-[2%] bottom-[150px] w-[40%] h-12 bg-black/50 blur-2xl rounded-[50%] z-0"></div>
-  <img src="img/hero-truck-cut.png" alt="Wild Transporte Umzugs-LKW – Privat- & Firmenumzüge, 63 m³" class="hidden lg:block absolute right-[1%] bottom-[150px] w-[56%] max-w-[820px] z-10 drop-shadow-[0_30px_40px_rgba(0,0,0,.55)]">
+  <div class="hidden lg:block absolute right-[-2%] bottom-[148px] w-[38%] h-12 bg-black/55 blur-2xl rounded-[50%] z-0"></div>
+  <img src="img/hero-truck-cut.png" alt="Wild Transporte Umzugs-LKW – Privat- & Firmenumzüge, 63 m³" class="hidden lg:block absolute right-[-3%] bottom-[150px] w-[52%] max-w-[760px] z-10 drop-shadow-[0_34px_44px_rgba(0,0,0,.6)]">
   <!-- floating tags desktop -->
-  <div class="hidden lg:flex absolute right-[8%] bottom-[420px] z-20 bg-white text-ink rounded-lg px-4 py-3 card-shadow flex-col"><span class="font-head font-800 text-2xl leading-none">63 m³</span><span class="text-[11px] text-steel font-semibold tracking-wide">Volumen pro Zug</span></div>
-  <div class="hidden lg:flex absolute right-[3%] bottom-[300px] z-20 bg-red text-white rounded-lg px-4 py-3 flex-col"><span class="font-head font-800 text-2xl leading-none">25 m</span><span class="text-[11px] text-white/80 font-semibold tracking-wide">eigener Möbellift</span></div>
+  <div class="hidden lg:flex absolute right-[6%] bottom-[420px] z-20 bg-white text-ink rounded-lg px-4 py-3 card-shadow flex-col"><span class="font-head font-800 text-2xl leading-none">63 m³</span><span class="text-[11px] text-steel font-semibold tracking-wide">Volumen pro Zug</span></div>
+  <div class="hidden lg:flex absolute right-[1%] bottom-[300px] z-20 bg-red text-white rounded-lg px-4 py-3 flex-col"><span class="font-head font-800 text-2xl leading-none">25 m</span><span class="text-[11px] text-white/80 font-semibold tracking-wide">eigener Möbellift</span></div>
 
   <div class="relative z-20 flex-1 flex items-center min-w-0">
     <div class="max-w-7xl mx-auto px-5 lg:px-8 w-full min-w-0 py-10">
@@ -329,15 +329,38 @@ tailwind.config = {
 </section>
 
 <!-- ===== PRESSE ===== -->
-<section id="presse" class="py-16 lg:py-20 bg-white border-y border-line">
-  <div class="max-w-7xl mx-auto px-5 lg:px-8">
-    <div class="kicker text-red mb-3">Presse</div>
-    <h2 class="font-head font-800 uppercase text-[clamp(1.8rem,3.5vw,2.6rem)] leading-[0.95] text-ink mb-8">Publireportagen</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      <div class="lift border border-line rounded-xl p-6 hover:border-red"><div class="font-head font-800 text-red text-sm mb-2">2016</div><div class="font-head font-700 text-lg text-ink">LIZ Publireportage</div><div class="text-steel text-sm">05.09.2016</div></div>
-      <div class="lift border border-line rounded-xl p-6 hover:border-red"><div class="font-head font-800 text-red text-sm mb-2">2010</div><div class="font-head font-700 text-lg text-ink">Reportage Zürirundschau</div><div class="text-steel text-sm">15.10.2010</div></div>
-      <div class="lift border border-line rounded-xl p-6 hover:border-red"><div class="font-head font-800 text-red text-sm mb-2">2009</div><div class="font-head font-700 text-lg text-ink">Publireportage</div><div class="text-steel text-sm">02.07.2009</div></div>
-      <div class="lift border border-line rounded-xl p-6 hover:border-red"><div class="font-head font-800 text-red text-sm mb-2">LIZ</div><div class="font-head font-700 text-lg text-ink">Stadtmagazin LIZ A4</div><div class="text-steel text-sm">Reportage</div></div>
+<section id="presse" class="py-20 lg:py-28 bg-white border-y border-line">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-16">
+    <div>
+      <div class="kicker text-red mb-3">Presse</div>
+      <h2 class="font-head font-800 uppercase text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-ink">Über uns wurde<br>berichtet</h2>
+      <p class="mt-4 text-steel text-lg">Seit Jahren ein fester Wert im Limmattal – mehrfach Thema in regionalen Publireportagen.</p>
+      <div class="mt-6 inline-flex items-center gap-3 text-ink">
+        <span class="font-head font-900 text-5xl text-red leading-none">4</span>
+        <span class="text-steel leading-tight">veröffentlichte<br>Reportagen</span>
+      </div>
+    </div>
+    <div class="lg:pt-2">
+      <a class="group flex items-center gap-5 py-5 border-t border-line hover:border-red transition-colors">
+        <span class="font-head font-900 text-3xl text-red w-20 shrink-0 tabular-nums">2016</span>
+        <span class="flex-1 min-w-0"><span class="block font-head font-700 text-xl text-ink group-hover:text-red transition-colors">LIZ Publireportage</span><span class="text-steel text-sm">Stadtmagazin LIZ · 05.09.2016</span></span>
+        <svg class="text-line group-hover:text-red transition-colors shrink-0" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 11h11M11 6l5 5-5 5"/></svg>
+      </a>
+      <a class="group flex items-center gap-5 py-5 border-t border-line hover:border-red transition-colors">
+        <span class="font-head font-900 text-3xl text-red w-20 shrink-0 tabular-nums">2010</span>
+        <span class="flex-1 min-w-0"><span class="block font-head font-700 text-xl text-ink group-hover:text-red transition-colors">Reportage Zürirundschau</span><span class="text-steel text-sm">Zürirundschau · 15.10.2010</span></span>
+        <svg class="text-line group-hover:text-red transition-colors shrink-0" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 11h11M11 6l5 5-5 5"/></svg>
+      </a>
+      <a class="group flex items-center gap-5 py-5 border-t border-line hover:border-red transition-colors">
+        <span class="font-head font-900 text-3xl text-red w-20 shrink-0 tabular-nums">2009</span>
+        <span class="flex-1 min-w-0"><span class="block font-head font-700 text-xl text-ink group-hover:text-red transition-colors">Publireportage</span><span class="text-steel text-sm">Regionalpresse · 02.07.2009</span></span>
+        <svg class="text-line group-hover:text-red transition-colors shrink-0" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 11h11M11 6l5 5-5 5"/></svg>
+      </a>
+      <a class="group flex items-center gap-5 py-5 border-y border-line hover:border-red transition-colors">
+        <span class="font-head font-900 text-2xl text-red w-20 shrink-0">LIZ</span>
+        <span class="flex-1 min-w-0"><span class="block font-head font-700 text-xl text-ink group-hover:text-red transition-colors">Stadtmagazin LIZ A4</span><span class="text-steel text-sm">Porträt-Reportage</span></span>
+        <svg class="text-line group-hover:text-red transition-colors shrink-0" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 11h11M11 6l5 5-5 5"/></svg>
+      </a>
     </div>
   </div>
 </section>
