@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wild Transporte AG Dietikon — Umzüge, Transporte & Lagerhaus seit 1948</title>
+<meta name="description" content="Wild Transporte AG Dietikon – Ihr Familienunternehmen für Privat- & Firmenumzüge, Industrie- & Spitalumzüge, Messen, Lagerhaus, Mietwagen und den Zügelshop im Limmattal. Seit 1948, 3. Generation.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        red: { DEFAULT: '#E30613', 600: '#C90512', 700: '#A50410' },
+        ink: '#16191D',
+        anthra: '#1F242A',
+        steel: '#5A6470',
+        paper: '#F6F5F3',
+        line: '#E4E2DD',
+      },
+      fontFamily: {
+        head: ['"Saira Condensed"', 'sans-serif'],
+        body: ['"Hanken Grotesk"', 'sans-serif'],
+      },
+    }
+  }
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Hanken Grotesk', sans-serif; color: #16191D; -webkit-font-smoothing: antialiased; }
+  h1,h2,h3,.font-head { font-family: 'Saira Condensed', sans-serif; }
+  .kicker { letter-spacing: .22em; text-transform: uppercase; font-weight: 700; font-size: .72rem; }
+  .speedlines { background-image: repeating-linear-gradient(115deg, rgba(227,6,19,.0) 0px, rgba(227,6,19,.0) 36px, rgba(227,6,19,.55) 36px, rgba(227,6,19,.55) 40px); }
+  .hero-grad { background: linear-gradient(180deg,#16191D 0%, #1F242A 60%, #16191D 100%); }
+  .card-shadow { box-shadow: 0 1px 0 rgba(0,0,0,.04), 0 18px 40px -24px rgba(22,25,29,.35); }
+  .lift { transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s; }
+  .lift:hover { transform: translateY(-4px); }
+  .underline-grow { position: relative; }
+  .underline-grow::after { content:''; position:absolute; left:0; bottom:-2px; height:2px; width:0; background:#E30613; transition:width .3s; }
+  .underline-grow:hover::after { width:100%; }
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} .lift{transition:none;} }
+</style>
+</head>
+<body class="bg-paper">
+
+<!-- ===== HEADER ===== -->
+<header id="top" class="fixed top-0 inset-x-0 z-50 bg-white/95 backdrop-blur border-b border-line">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 h-[68px] flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-3 shrink-0">
+      <img src="img/logo.png" alt="Wild Transporte AG" class="h-9 w-auto">
+    </a>
+    <nav class="hidden lg:flex items-center gap-7 text-[15px] font-semibold text-ink">
+      <a href="#leistungen" class="underline-grow hover:text-red">Leistungen</a>
+      <a href="#ueber-uns" class="underline-grow hover:text-red">Über uns</a>
+      <a href="#fuhrpark" class="underline-grow hover:text-red">Fuhrpark</a>
+      <a href="#zuegelshop" class="underline-grow hover:text-red">Zügelshop</a>
+      <a href="#team" class="underline-grow hover:text-red">Team</a>
+      <a href="#presse" class="underline-grow hover:text-red">Presse</a>
+      <a href="#kontakt" class="underline-grow hover:text-red">Kontakt</a>
+    </nav>
+    <a href="tel:+41447505503" class="hidden sm:inline-flex items-center gap-2 bg-red hover:bg-red-600 text-white font-head font-700 tracking-wide text-[17px] px-4 py-2 rounded-md transition-colors">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>
+      044 750 55 03
+    </a>
+    <a href="tel:+41447505503" aria-label="Anrufen 044 750 55 03" class="sm:hidden inline-flex items-center justify-center w-10 h-10 bg-red text-white rounded-md">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>
+    </a>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero-grad text-white pt-[68px] relative overflow-hidden flex flex-col min-h-[100svh]">
+  <div class="absolute inset-0 speedlines opacity-[.06] pointer-events-none"></div>
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 flex-1 flex items-center py-10">
+    <div class="grid lg:grid-cols-[1.05fr_1fr] gap-10 lg:gap-12 items-center w-full">
+      <!-- copy -->
+      <div>
+        <div class="inline-flex items-center gap-2 text-red font-head font-700 tracking-[.18em] uppercase text-sm mb-5">
+          <span class="h-px w-8 bg-red"></span> Familienunternehmen seit 1948 · Dietikon
+        </div>
+        <h1 class="font-head font-800 leading-[0.92] text-[clamp(2.6rem,6vw,5rem)] uppercase">
+          Wir lösen Ihre<br><span class="text-red">Transportsorgen</span>,<br>als ob es unsere wären.
+        </h1>
+        <p class="mt-6 text-[17px] lg:text-lg text-white/80 max-w-xl leading-relaxed">
+          Ihr professioneller Partner für individuelle Transportlösungen im Limmattal.
+          Privat- &amp; Firmenumzüge, Industrie- &amp; Spitalumzüge, Messen, Tresorverschiebungen,
+          Neuküchenlogistik – Lagerhaus, Mietwagen und Zügelshop aus einer Hand.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#kontakt" class="inline-flex items-center gap-2 bg-red hover:bg-red-600 text-white font-head font-700 tracking-wide text-lg px-6 py-3 rounded-md transition-colors">
+            Offerte anfordern
+          </a>
+          <a href="tel:+41447505503" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/25 text-white font-head font-700 tracking-wide text-lg px-6 py-3 rounded-md transition-colors">
+            044 750 55 03
+          </a>
+        </div>
+      </div>
+      <!-- visual -->
+      <div class="relative">
+        <div class="rounded-xl overflow-hidden ring-1 ring-white/15 shadow-2xl">
+          <img src="img/hero-truck.jpg" alt="Wild Transporte Lastwagen – Privat- & Firmenumzüge, 63 m³ Volumen" class="w-full h-[280px] sm:h-[360px] object-cover">
+        </div>
+        <div class="absolute -bottom-4 -left-3 bg-white text-ink rounded-lg px-4 py-3 card-shadow hidden sm:block">
+          <div class="font-head font-800 text-2xl leading-none">63 m³</div>
+          <div class="text-xs text-steel font-semibold tracking-wide">Volumen pro Zug</div>
+        </div>
+        <div class="absolute -top-4 -right-3 bg-red text-white rounded-lg px-4 py-3 hidden sm:block">
+          <div class="font-head font-800 text-2xl leading-none">25 m</div>
+          <div class="text-xs text-white/80 font-semibold tracking-wide">eigener Möbellift</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- trust strip -->
+  <div class="border-t border-white/10 bg-black/20">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8 py-4 grid grid-cols-2 md:grid-cols-4 gap-4 text-center md:text-left">
+      <div><div class="font-head font-800 text-xl text-white">Seit 1948</div><div class="text-xs text-white/55 font-semibold tracking-wide">Tradition & Erfahrung</div></div>
+      <div><div class="font-head font-800 text-xl text-white">3. Generation</div><div class="text-xs text-white/55 font-semibold tracking-wide">Familie Wild</div></div>
+      <div><div class="font-head font-800 text-xl text-white">Eigener Fuhrpark</div><div class="text-xs text-white/55 font-semibold tracking-wide">inkl. Autokran & Mulden</div></div>
+      <div><div class="font-head font-800 text-xl text-white">3000 m² Lager</div><div class="text-xs text-white/55 font-semibold tracking-wide">5 Zonen in Dietikon</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LEISTUNGEN ===== -->
+<section id="leistungen" class="py-20 lg:py-28 bg-paper">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="max-w-2xl">
+      <div class="kicker text-red mb-3">Unsere Leistungen</div>
+      <h2 class="font-head font-800 uppercase text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-ink">Alles rund um Umzug, Transport &amp; Lager – aus einer Hand</h2>
+      <p class="mt-4 text-steel text-lg">Vom privaten Umzug bis zur anspruchsvollen Industrie- und Spitallogistik: Wir planen, packen, transportieren und lagern – mit eigenem Fuhrpark und einem eingespielten Team.</p>
+    </div>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- card -->
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 13h13V5H3v8zm13 0h3l2 3v3h-5v-6zM6 19a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm12 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Privat- &amp; Firmenumzüge</h3>
+        <p class="mt-2 text-steel">Wohnungs- und Geschäftsumzüge – intern, regional, national und international. Sorgfältig geplant und termingerecht ausgeführt.</p>
+      </div>
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21V8l8-5 8 5v13M9 21v-6h6v6"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Industrie- &amp; Spitalumzüge</h3>
+        <p class="mt-2 text-steel">Komplexe Umzüge für Industrie, Spitäler und Institutionen – mit der nötigen Erfahrung für empfindliche und schwere Güter.</p>
+      </div>
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 11h.01M15 11h.01"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Messetransporte</h3>
+        <p class="mt-2 text-steel">Auf- und Abbau-Logistik für Messen und Events – pünktlich am Stand, zuverlässig wieder zurück.</p>
+      </div>
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="1"/><circle cx="12" cy="12" r="3"/><path d="M12 9v0"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Tresorverschiebungen</h3>
+        <p class="mt-2 text-steel">Schwere Tresore und Wertbehälter sicher bewegt – mit passender Technik und geschultem Personal.</p>
+      </div>
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 10h18M6 10V7a2 2 0 012-2h8a2 2 0 012 2v3M5 10v9a1 1 0 001 1h12a1 1 0 001-1v-9"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Neuküchenlogistik</h3>
+        <p class="mt-2 text-steel">Anlieferung und Feinverteilung neuer Küchen – kommissioniert und just-in-time auf die Baustelle.</p>
+      </div>
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7l9-4 9 4-9 4-9-4zM3 7v10l9 4 9-4V7M12 11v10"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Lagerhaus 3000 m²</h3>
+        <p class="mt-2 text-steel">Möbel- &amp; Paletten-Lager in 5 Zonen: <span class="text-ink font-semibold">lagern – kommissionieren – spedieren.</span></p>
+      </div>
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 16V8a1 1 0 011-1h10v9H3zm11-6h4l3 3v3h-7v-6zM6.5 19a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm11 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Mietwagen</h3>
+        <p class="mt-2 text-steel">Lieferwagen mit oder ohne Hebebühne, Anhänger mit Durchladesystem – und der Zügellift mit Zugfahrzeug und Bediener.</p>
+      </div>
+      <div class="lift bg-white rounded-xl p-7 border border-line card-shadow">
+        <div class="w-11 h-11 rounded-lg bg-red/10 text-red flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 9l-9-6-9 6M5 9v11h14V9M9 20v-6h6v6"/><path d="M2 9h20"/></svg></div>
+        <h3 class="font-head font-700 text-2xl text-ink">Autokran, Mulden &amp; Räumungen</h3>
+        <p class="mt-2 text-steel">Eigener Mulden-Kran-LKW (26 t) für schwere Hebearbeiten, Mulden und Räumungen – auch übergrosse Lasten aufs Dach.</p>
+      </div>
+      <!-- Zügelshop highlight card -->
+      <div class="lift bg-ink text-white rounded-xl p-7 border border-ink card-shadow relative overflow-hidden">
+        <div class="absolute inset-0 speedlines opacity-[.08]"></div>
+        <div class="relative">
+          <div class="w-11 h-11 rounded-lg bg-red text-white flex items-center justify-center mb-5"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16l-1 13H5L4 7zM8 7V5a4 4 0 018 0v2"/></svg></div>
+          <h3 class="font-head font-700 text-2xl">Zügelshop</h3>
+          <p class="mt-2 text-white/70">Kartons und Packmaterial – <span class="text-red font-semibold">der erste und einzige Zügelshop im Limmattal.</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ÜBER UNS ===== -->
+<section id="ueber-uns" class="py-20 lg:py-28 bg-white border-y border-line">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+    <div class="relative">
+      <img src="img/ruag.jpg" alt="Wild Transporte – Firmen- und Industrieumzüge schweizweit" class="rounded-xl w-full object-cover h-[300px] sm:h-[420px] ring-1 ring-line card-shadow">
+      <div class="absolute -bottom-5 right-5 bg-red text-white rounded-xl px-6 py-4 text-center">
+        <div class="font-head font-900 text-4xl leading-none">1948</div>
+        <div class="text-xs font-semibold tracking-wide text-white/85">gegründet</div>
+      </div>
+    </div>
+    <div>
+      <div class="kicker text-red mb-3">Über uns</div>
+      <h2 class="font-head font-800 uppercase text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-ink">Ein Traditionsunternehmen für Umzüge &amp; Transporte</h2>
+      <div class="mt-6 space-y-4 text-steel text-lg leading-relaxed">
+        <p>WILD TRANSPORTE AG DIETIKON – ein langjähriges Familienunternehmen, ursprünglich aus der Stadt Zürich, mit viel Erfahrung in den Bereichen Umzüge &amp; Transporte. Die Familienmitglieder Ursula Wild, Gabriela Wild und Turi Wild III. werden von einem motivierten und freundlichen Team unterstützt.</p>
+        <p>Turi Wild II. hat am 1. November 1966 die Firma mit 2 Lastwagen von seinem Vater übernommen und mit Hilfe seiner Frau Ursula das Unternehmen stetig vergrössert. Anfang 2002 wurde das Einzelunternehmen in eine Familien-AG umgewandelt, der Zügelshop gegründet und eingerichtet.</p>
+      </div>
+      <div class="mt-8 grid grid-cols-3 gap-4">
+        <div class="border-l-2 border-red pl-4"><div class="font-head font-800 text-3xl text-ink">1966</div><div class="text-sm text-steel">übernommen mit 2 LKW</div></div>
+        <div class="border-l-2 border-red pl-4"><div class="font-head font-800 text-3xl text-ink">2002</div><div class="text-sm text-steel">Familien-AG & Zügelshop</div></div>
+        <div class="border-l-2 border-red pl-4"><div class="font-head font-800 text-3xl text-ink">3.</div><div class="text-sm text-steel">Generation Wild</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FUHRPARK ===== -->
+<section id="fuhrpark" class="py-20 lg:py-28 bg-paper">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="flex flex-wrap items-end justify-between gap-4 mb-12">
+      <div class="max-w-2xl">
+        <div class="kicker text-red mb-3">Unsere Flotte</div>
+        <h2 class="font-head font-800 uppercase text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-ink">Ein Fuhrpark für jede Aufgabe</h2>
+        <p class="mt-4 text-steel text-lg">Vom 63-m³-Möbel-LKW über den Mulden-Kran bis zum 25-m-Möbellift: Für jeden Transport das richtige Fahrzeug – alles im eigenen Fuhrpark.</p>
+      </div>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <article class="lift bg-white rounded-xl overflow-hidden border border-line card-shadow">
+        <img src="img/fleet-iveco.jpg" alt="Iveco MH 190 E35" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-head font-700 text-xl text-ink">Iveco MH 190 E35</h3>
+          <p class="text-sm text-red font-semibold mt-0.5">18 t · 63 m³ · Innenhöhe 2,70 m</p>
+          <p class="mt-2 text-steel">Unser Raumwunder: Damit zügeln wir ein Einfamilienhaus, oder 23 Paletten finden Platz. Hochschränke können stehend geladen werden.</p>
+        </div>
+      </article>
+      <article class="lift bg-white rounded-xl overflow-hidden border border-line card-shadow">
+        <img src="img/fleet-volvo.jpg" alt="Volvo FM 400 mit Spezialbühne" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-head font-700 text-xl text-ink">Volvo FM 400</h3>
+          <p class="text-sm text-red font-semibold mt-0.5">18 t · 45 m³ · Spezialbühne bis 6 m</p>
+          <p class="mt-2 text-steel">Hebebühne über Aufbau ausfahrbar – bis 6 m ab Boden. Diese Sonderanfertigung gibt es erst 13 Mal in der Schweiz.</p>
+        </div>
+      </article>
+      <article class="lift bg-white rounded-xl overflow-hidden border border-line card-shadow">
+        <img src="img/fleet-kran.jpg" alt="Iveco MT 180 E30 Mulden-Kran-LKW" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-head font-700 text-xl text-ink">Iveco MT 180 E30</h3>
+          <p class="text-sm text-red font-semibold mt-0.5">26 t · Muldenfahrzeug mit Kran</p>
+          <p class="mt-2 text-steel">Unser Allround-Mulden-Kran-LKW für diverse Mulden und schwere Hebearbeiten.</p>
+        </div>
+      </article>
+      <article class="lift bg-white rounded-xl overflow-hidden border border-line card-shadow">
+        <img src="img/fleet-moebellift.jpg" alt="Möbellift Paus AsA 25 WH" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-head font-700 text-xl text-ink">Möbellift Paus AsA 25 WH</h3>
+          <p class="text-sm text-red font-semibold mt-0.5">Ausfahrlänge bis 25 m</p>
+          <p class="mt-2 text-steel">Dank unserem Zügellift gelangen auch sperrige Möbel in die Wohnung, die nicht durchs Treppenhaus passen.</p>
+        </div>
+      </article>
+      <article class="lift bg-white rounded-xl overflow-hidden border border-line card-shadow">
+        <img src="img/fleet-vito.jpg" alt="Mercedes Benz Vito 115 CDI" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-head font-700 text-xl text-ink">Mercedes-Benz Vito 115 CDI</h3>
+          <p class="text-sm text-red font-semibold mt-0.5">2,94 t · Mannschaft & Lieferungen</p>
+          <p class="mt-2 text-steel">Transportbus für das Team oder Lieferungen bis 2 Paletten – mit Permanent-Allrad und Automatik, auch mietbar.</p>
+        </div>
+      </article>
+      <article class="lift bg-white rounded-xl overflow-hidden border border-line card-shadow">
+        <img src="img/fleet-ape.jpg" alt="Piaggio Ape TM" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-head font-700 text-xl text-ink">Piaggio Ape TM</h3>
+          <p class="text-sm text-red font-semibold mt-0.5">1,27 t · Zügelshop-Auslieferung</p>
+          <p class="mt-2 text-steel">Mit diesem Augenfang werden Kartons aus dem Zügelshop ausgeliefert.</p>
+        </div>
+      </article>
+    </div>
+    <p class="mt-6 text-sm text-steel">Weiter im Einsatz: Iveco MH 190 E31 (Blachenwagen mit Kran), Volvo FM 300, Nissan Atleon &amp; Cabstar, Renault Master, Mercedes 316 CDI, diverse Anhänger und der FZ-Abschlepper Isuzu-Opel.</p>
+  </div>
+</section>
+
+<!-- ===== LAGER & MIETWAGEN BAND ===== -->
+<section class="py-20 lg:py-24 bg-ink text-white relative overflow-hidden">
+  <div class="absolute inset-0 speedlines opacity-[.05]"></div>
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 relative grid md:grid-cols-2 gap-8">
+    <div class="bg-white/5 border border-white/10 rounded-xl p-8">
+      <div class="kicker text-red mb-3">Lagerhaus</div>
+      <h3 class="font-head font-800 text-3xl uppercase">3000 m² in 5 Zonen</h3>
+      <p class="mt-3 text-white/70 text-lg">In unseren Möbel- &amp; Paletten-Lagern steht unserer Kundschaft in 5 Zonen 3000 m² Platz zur Verfügung.</p>
+      <div class="mt-5 flex flex-wrap gap-2 font-head font-700 tracking-wide uppercase text-sm">
+        <span class="px-3 py-1.5 rounded bg-red/15 text-red">lagern</span>
+        <span class="px-3 py-1.5 rounded bg-red/15 text-red">kommissionieren</span>
+        <span class="px-3 py-1.5 rounded bg-red/15 text-red">spedieren</span>
+      </div>
+    </div>
+    <div class="bg-white/5 border border-white/10 rounded-xl p-8">
+      <div class="kicker text-red mb-3">Mietwagen</div>
+      <h3 class="font-head font-800 text-3xl uppercase">Selber zügeln? Wir liefern das Fahrzeug.</h3>
+      <ul class="mt-3 space-y-2 text-white/70 text-lg">
+        <li class="flex gap-3"><span class="text-red">→</span> Lieferwagen mit oder ohne Hebebühne</li>
+        <li class="flex gap-3"><span class="text-red">→</span> Anhänger mit Durchladesystem und Hebebühne</li>
+        <li class="flex gap-3"><span class="text-red">→</span> Zügellift mit Zugfahrzeug und Bediener</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ZÜGELSHOP ===== -->
+<section id="zuegelshop" class="py-20 lg:py-28 bg-white border-b border-line">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <div class="kicker text-red mb-3">Zügelshop</div>
+      <h2 class="font-head font-800 uppercase text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-ink">Der erste und einzige Zügelshop im Limmattal</h2>
+      <p class="mt-4 text-steel text-lg">Kartons, Packmaterial und alles, was einen Umzug leichter macht – bei uns in Dietikon erhältlich und mit der Piaggio Ape direkt geliefert.</p>
+      <a href="#kontakt" class="mt-6 inline-flex items-center gap-2 bg-red hover:bg-red-600 text-white font-head font-700 tracking-wide text-lg px-6 py-3 rounded-md transition-colors">Packmaterial anfragen</a>
+    </div>
+    <div class="rounded-xl overflow-hidden ring-1 ring-line card-shadow">
+      <img src="img/kran.jpg" alt="Zügelshop Wild – der erste und einzige im Limmattal" class="w-full h-[320px] object-cover">
+    </div>
+  </div>
+</section>
+
+<!-- ===== TEAM ===== -->
+<section id="team" class="py-20 lg:py-28 bg-paper">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="max-w-2xl mb-12">
+      <div class="kicker text-red mb-3">Das Team</div>
+      <h2 class="font-head font-800 uppercase text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-ink">Familie &amp; Mannschaft</h2>
+      <p class="mt-4 text-steel text-lg">Drei Generationen Wild, unterstützt von langjährigen Routiniers – viele seit dem Jahr 2000 bei uns.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="bg-white rounded-xl p-6 border border-line card-shadow">
+        <div class="font-head font-700 text-xl text-ink">Gabriela Wild Bickel</div>
+        <div class="text-red text-sm font-semibold mb-2">3. Generation</div>
+        <p class="text-steel text-sm">Kfm. Angestellte · Chauffeuse Kat. B/C/D1 · Fachfrau Finanz- &amp; Rechnungswesen mit eidg. Fachausweis (2004) · Fachfrau Sozialversicherungen mit eidg. Fachausweis (2015)</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 border border-line card-shadow">
+        <div class="font-head font-700 text-xl text-ink">Arthur Wild-Hidalgo III.</div>
+        <div class="text-red text-sm font-semibold mb-2">3. Generation</div>
+        <p class="text-steel text-sm">Umzugskoordinator / Chauffeur Kat. B/C/C-E/D1 · Inhaber der Prüfung «Berufszulassung Strassentransport-Unternehmung»</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 border border-line card-shadow">
+        <div class="font-head font-700 text-xl text-ink">Ursula Wild-Krauer</div>
+        <div class="text-red text-sm font-semibold mb-2">2. Generation</div>
+        <p class="text-steel text-sm">Patron</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 border border-line card-shadow">
+        <div class="font-head font-700 text-xl text-ink">Riet Bickel-Wild</div>
+        <div class="text-red text-sm font-semibold mb-2">Chauffeur</div>
+        <p class="text-steel text-sm">Chauffeur Kat. B / Zügelmann</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 border border-line card-shadow">
+        <div class="font-head font-700 text-xl text-ink">Argetim Adili</div>
+        <div class="text-red text-sm font-semibold mb-2">Chauffeur</div>
+        <p class="text-steel text-sm">Chauffeur Kat. C / Zügelmann</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 border border-line card-shadow">
+        <div class="font-head font-700 text-xl text-ink">Thomas Baldinger</div>
+        <div class="text-red text-sm font-semibold mb-2">Zügelhilfe</div>
+        <p class="text-steel text-sm">Seit Juli 2024 als Zügelhilfe im Team.</p>
+      </div>
+    </div>
+    <p class="mt-6 text-sm text-steel max-w-3xl">Unsere Aushilfen sind allesamt langjährige Routiniers, die seit dem Jahr 2000 bei uns tätig sind – oder frühere Angestellte, die in der Freizeit gerne ihre Muskeln einsetzen und den Kontakt zu uns halten.</p>
+  </div>
+</section>
+
+<!-- ===== PRESSE ===== -->
+<section id="presse" class="py-16 lg:py-20 bg-white border-y border-line">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="kicker text-red mb-3">Presse</div>
+    <h2 class="font-head font-800 uppercase text-[clamp(1.8rem,3.5vw,2.6rem)] leading-[0.95] text-ink mb-8">Publireportagen</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="border border-line rounded-lg p-5 hover:border-red transition-colors"><div class="font-head font-700 text-lg text-ink">LIZ Publireportage</div><div class="text-steel text-sm">05.09.2016</div></div>
+      <div class="border border-line rounded-lg p-5 hover:border-red transition-colors"><div class="font-head font-700 text-lg text-ink">Reportage Zürirundschau</div><div class="text-steel text-sm">15.10.2010</div></div>
+      <div class="border border-line rounded-lg p-5 hover:border-red transition-colors"><div class="font-head font-700 text-lg text-ink">Publireportage</div><div class="text-steel text-sm">02.07.2009</div></div>
+      <div class="border border-line rounded-lg p-5 hover:border-red transition-colors"><div class="font-head font-700 text-lg text-ink">Stadtmagazin LIZ A4</div><div class="text-steel text-sm">Reportage</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KONTAKT ===== -->
+<section id="kontakt" class="py-20 lg:py-28 bg-paper">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-2 gap-12">
+    <div>
+      <div class="kicker text-red mb-3">Kontakt</div>
+      <h2 class="font-head font-800 uppercase text-[clamp(2rem,4vw,3.2rem)] leading-[0.95] text-ink">Wir beraten Sie gerne</h2>
+      <p class="mt-4 text-steel text-lg">Rufen Sie uns an oder schreiben Sie uns – wir erstellen Ihnen unverbindlich eine Offerte für Ihren Umzug oder Transport.</p>
+      <div class="mt-8 space-y-5">
+        <div class="flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-red/10 text-red flex items-center justify-center shrink-0"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 1.7c-3.3 0-6 2.6-6 5.9 0 4.4 6 10.7 6 10.7s6-6.3 6-10.7c0-3.3-2.7-5.9-6-5.9z"/><circle cx="10" cy="7.5" r="2"/></svg></div>
+          <div><div class="font-head font-700 text-lg text-ink">WILD TRANSPORTE AG DIETIKON</div><div class="text-steel">Moosmattstrasse 27 · 8953 Dietikon</div></div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-red/10 text-red flex items-center justify-center shrink-0"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg></div>
+          <div><div class="font-head font-700 text-lg text-ink"><a href="tel:+41447505503" class="hover:text-red">044 750 55 03</a></div><div class="text-steel">Telefon</div></div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="w-10 h-10 rounded-lg bg-red/10 text-red flex items-center justify-center shrink-0"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="15" height="11" rx="1.5"/><path d="M3 5l7 5 7-5"/></svg></div>
+          <div><div class="font-head font-700 text-lg text-ink"><a href="mailto:info@wild-transporte.ch" class="hover:text-red">info@wild-transporte.ch</a></div><div class="text-steel">E-Mail</div></div>
+        </div>
+      </div>
+    </div>
+    <form class="bg-white rounded-xl p-7 border border-line card-shadow" onsubmit="return false;">
+      <div class="font-head font-700 text-2xl text-ink mb-5">Eine E-Mail senden</div>
+      <div class="space-y-4">
+        <div><label class="block text-sm font-semibold text-ink mb-1">Name *</label><input type="text" class="w-full border border-line rounded-md px-4 py-2.5 focus:outline-none focus:border-red focus:ring-1 focus:ring-red" placeholder="Ihr Name"></div>
+        <div><label class="block text-sm font-semibold text-ink mb-1">E-Mail *</label><input type="email" class="w-full border border-line rounded-md px-4 py-2.5 focus:outline-none focus:border-red focus:ring-1 focus:ring-red" placeholder="ihre@email.ch"></div>
+        <div><label class="block text-sm font-semibold text-ink mb-1">Betreff *</label><input type="text" class="w-full border border-line rounded-md px-4 py-2.5 focus:outline-none focus:border-red focus:ring-1 focus:ring-red" placeholder="Umzug, Transport, Mietwagen …"></div>
+        <div><label class="block text-sm font-semibold text-ink mb-1">Nachricht *</label><textarea rows="4" class="w-full border border-line rounded-md px-4 py-2.5 focus:outline-none focus:border-red focus:ring-1 focus:ring-red" placeholder="Wie können wir helfen?"></textarea></div>
+        <button class="w-full bg-red hover:bg-red-600 text-white font-head font-700 tracking-wide text-lg px-6 py-3 rounded-md transition-colors">E-Mail senden</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-ink text-white pt-14 pb-8">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="grid md:grid-cols-[1.4fr_1fr_1fr] gap-10 pb-10 border-b border-white/10">
+      <div>
+        <img src="img/logo.png" alt="Wild Transporte AG" class="h-10 w-auto bg-white rounded p-1.5 inline-block">
+        <p class="mt-4 text-white/60 max-w-sm">Ihr Familienunternehmen für Umzüge, Transporte, Lager, Mietwagen und den Zügelshop im Limmattal – seit 1948.</p>
+      </div>
+      <div>
+        <div class="font-head font-700 tracking-wide uppercase text-sm text-white/50 mb-3">Leistungen</div>
+        <ul class="space-y-2 text-white/75">
+          <li><a href="#leistungen" class="hover:text-red">Umzüge & Transporte</a></li>
+          <li><a href="#fuhrpark" class="hover:text-red">Fuhrpark</a></li>
+          <li><a href="#zuegelshop" class="hover:text-red">Zügelshop</a></li>
+          <li><a href="#presse" class="hover:text-red">Presse</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-head font-700 tracking-wide uppercase text-sm text-white/50 mb-3">Kontakt</div>
+        <ul class="space-y-2 text-white/75">
+          <li>Moosmattstrasse 27</li>
+          <li>8953 Dietikon</li>
+          <li><a href="tel:+41447505503" class="hover:text-red">044 750 55 03</a></li>
+          <li><a href="mailto:info@wild-transporte.ch" class="hover:text-red">info@wild-transporte.ch</a></li>
+        </ul>
+        <img src="img/astag.png" alt="ASTAG Mitglied" class="mt-4 h-12 w-auto bg-white rounded p-1.5">
+      </div>
+    </div>
+    <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-white/45">
+      <div>© 2026 Wild Transporte AG Dietikon · Mitglied ASTAG</div>
+      <div>Familienunternehmen seit 1948 · 3. Generation</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
